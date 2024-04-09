@@ -1,0 +1,506 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red;  */
+}
+.navbar-nav  a{
+    color: white !important;
+    font-size: 20px;
+   
+}
+.dropdown-menu li a{
+    color: black !important;
+}
+.call{
+    text-align: center;
+}
+.call li{
+    list-style-type: none;
+}
+.dropdown-menu li:hover{
+    transform: scale(1.1);
+}
+.heroContainer {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/genius-coder-programme.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+}
+.heroSection {
+    padding: 110px; 
+
+
+}
+.jumbotron h1 {
+    padding-left: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 60px;
+    border-left: 3px solid rgb(10, 92, 158);
+}
+
+.jumbotron h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+
+}
+
+
+/* TABLE  */
+
+table{
+    width: 100%;
+    color: rgb(77, 77, 77);
+}
+table a{
+    text-decoration: none;
+}
+table td{
+    border: 1px solid;
+    padding: 20px;
+    text-align: center;
+
+    
+}
+table th{
+    border: 1px solid;
+    text-align: center;
+}
+/* grid */
+
+
+.card1 {
+    height: 100%;
+    width: 100%;
+    background-color: #0094b9;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 30px 10px;
+
+}
+
+.card2 {
+    height: 100%;
+    width: 100%;
+    background-color: #eeb834;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px 10px;
+}
+
+.card3 {
+    height: 100%;
+    width: 100%;
+    background-color: #222222;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px 0px;
+}
+
+.cardhead h3 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: x-large;
+}
+
+.cardBody {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.cardBody li {
+    list-style-type: none;
+    padding: 10px;
+
+}
+
+.cardBody a {
+    text-decoration: none;
+    color: white;
+}
+
+.cardhead {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.cardhead i {
+    font-size: 25px;
+    border: 1 px solid black;
+    padding: 20px;
+    border-radius: 130px;
+    background-color: black;
+    opacity: 50%;
+
+
+}
+
+.cardBody i {
+
+    opacity: 50%;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+/* why us container  */
+.whyus {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/virtual-reality-courses.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: cover;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.whyus1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.whyus1 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #EEB834;
+    text-align: center;
+    width: 90%;
+    font-size: 50px;
+    font-weight: lighter;
+    line-height: 70px;
+}
+
+.whyus1 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 50px;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.whyus1 p {
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    width: 90%;
+    padding: 40px 0;
+}
+
+
+/* sign container  */
+
+
+.sign {
+}
+
+.sign h2 {
+    color: #222222;
+
+}
+
+.sign p {
+    padding: 30px;
+}
+
+.sign h5 {
+    padding-bottom: 40px;
+
+}
+
+.sign button {
+    font-size: 15px;
+    padding: 10px 200px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #0094b9;
+    color: #0094b9;
+    font-weight: bold;
+}
+
+.sign button:hover {
+    color: white;
+    background-color: #0094b9;
+}
+
+/* grid 8  */
+.Grid {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid yellow;
+    
+}
+.Grid:hover{
+    transform: scale(1.1);
+}
+
+/* button effect  */
+
+.dutt{
+    padding: 0 400px;
+}
+.trial {
+    color: #0094b9;
+    background-color: transparent;
+    padding: 10px 100px;
+    width: 100%;
+    border: 1px solid #0094b9;
+    border-radius: 5px;
+    /* font-weight: bolder; */
+}
+
+.read {
+    color: #172b4d;
+    background-color: transparent;
+    padding: 10px 100px;
+    width: 100%;
+    border: 1px solid #172b4d;
+    border-radius: 5px;
+    /* font-weight: bolder; */
+    margin: 20px 0;
+}
+
+.read:hover {
+    color: white;
+    background-color: #172b4d;
+}
+
+.trial:hover {
+    color: white;
+    background-color: #0094b9;
+}
+
+
+section{
+    overflow: hidden;
+}
+
+/* footer sec  */
+
+footer {
+    background-color: #222222;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.footContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footLogo img {
+    height: 50px;
+}
+
+.leftFoot {
+    color: #807b7b;
+    line-height: 30px;
+}
+
+.leftFoot h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+
+.leftFoot li {
+    list-style-type: none;
+    width: 80%;
+
+}
+
+.leftFoot a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0094b9;
+}
+
+.middle li {
+    list-style-type: none;
+}
+
+.middle a {
+    text-decoration: none;
+    color: #0094b9;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+.middle h2 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: rgb(128, 123, 123);
+    font-weight: lighter;
+}
+
+.rightFoot h2 {
+    padding: 20px;
+    color: rgb(128, 123, 123);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.ilink {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    gap: 5px;
+
+}
+
+.ilink li {
+    list-style-type: none;
+    color: #0094b9;
+}
+
+.ilink i {
+    color: white;
+    font-size: 30px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.fb i {
+    color: rgb(255, 255, 255);
+    background-color: rgb(54, 105, 199);
+    padding: ;
+    
+
+}
+
+.wi {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    gap: 5px;
+}
+
+.wi li {
+    list-style-type: none;
+}
+
+.wi i {
+    color: white;
+    background-color: rgb(14, 58, 14);
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    /* margin-left: 50px; */
+    /* margin-bottom: 10px; */
+}
+
+.wi button {
+    color: rgb(48, 102, 48);
+    background-color: transparent;
+    border: 1px solid rgb(48, 114, 48);
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    /* margin-right: 60px; */
+    /* height:50px; */
+}
+
+.wi button:hover {
+    color: white;
+    background-color: rgb(48, 114, 48);
+}
+
+/* foot end  */
+
+
+
+@media(max-width:576px){
+
+    .heroSection{
+        padding: 0;
+    }
+    .jumbotron h1 {
+        /* padding-left: 20px; */
+    
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 40px;
+        border-left: 3px solid rgb(10, 92, 158);
+    }
+    .sign button{
+        width: 80%;
+        padding: 10px 50px;
+    }
+    .navbar-nav{
+        width: 100%;
+    }
+
+    .cardContainer{
+        /* padding: 0 20px; */
+        padding-bottom:10px ;
+    }
+    .cardBody li{
+        font-size: 14px;
+   
+
+}
+.cardBody i {
+
+    opacity: 50%;
+    /* padding: 10px; */
+    border-radius: 50%;
+    background-color: black;
+}
+.card1{
+    padding: 0;
+}
+.card2{
+    padding: 0;
+}
+.card3{
+    padding: 0;
+}
+.carbody li{
+    padding: 0;
+}
+.cardhead {
+    padding: 10px;
+}
+.cardLeft ul{
+    padding: 0;
+}
+.cardLeft li{
+    padding: 10px 0;
+}
+.cardhead h3 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+.trial{
+    padding:10px;
+    width: 90%;
+}
+.read{
+    padding: 10px;
+    width: 90%;
+}
+.dutt{
+    padding: 0 ;
+}
+}
